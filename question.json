@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Wy we Use <br> Element",
+        "answer_1": "To make text italic",
+        "answer_2": "To make text bold",
+        "answer_3": "To add BreakLine",
+        "answer_4": "To create Horizontale Line",
+        "right_answer": "To add BreakLine"
+    },
+    {
+        "title": "What is the Purpose of the <img> Element?",
+        "answer_1": "To embed an image in a webpage",
+        "answer_2": "To create a hyperlink",
+        "answer_3": "To make text italic",
+        "answer_4": "To create a table",
+        "right_answer": "To embed an image in a webpage"
+    },
+    {
+        "title": "What does the <a> Element Do?",
+        "answer_1": "Creates a table",
+        "answer_2": "Adds a link to another page",
+        "answer_3": "Displays an image",
+        "answer_4": "Adds a horizontal line",
+        "right_answer": "Adds a link to another page"
+    },
+    {
+        "title": "What is the Purpose of the <h1> to <h6> Elements?",
+        "answer_1": "To add horizontal lines",
+        "answer_2": "To create forms",
+        "answer_3": "To define HTML headings",
+        "answer_4": "To display images",
+        "right_answer": "To define HTML headings"
+    },
+    {
+        "title": "What is the Function of the <ul> Element?",
+        "answer_1": "To create an unordered list",
+        "answer_2": "To display bold text",
+        "answer_3": "To add a break line",
+        "answer_4": "To embed an image",
+        "right_answer": "To create an unordered list"
+    },
+    {
+        "title": "What does the <form> Element Do?",
+        "answer_1": "Creates a hyperlink",
+        "answer_2": "Defines a form for user input",
+        "answer_3": "Displays an image",
+        "answer_4": "Adds a horizontal line",
+        "right_answer": "Defines a form for user input"
+    },
+    {
+        "title": "What is the Purpose of the <table> Element?",
+        "answer_1": "To add a break line",
+        "answer_2": "To define a table",
+        "answer_3": "To create a form",
+        "answer_4": "To add a link",
+        "right_answer": "To define a table"
+    }
+]
