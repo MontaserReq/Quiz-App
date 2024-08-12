@@ -25,10 +25,9 @@ function getQuestions() {
             countDown(90, data.length);
 
             nextBtn.onclick = () => {
-
                 //Get Right answer
                 let rightAnswer = data[currentIndex].right_answer;
-
+                
                 //Check the answer
                 checkAnswer(rightAnswer);
 
@@ -58,7 +57,7 @@ function addQuestionData(questionData) {
     let questoinTitle = document.createElement('h2');
 
     //Create question text
-    let questionText = document.createTextNode(questionData.title)
+    let questionText = document.createTextNode(questionData.title);
     //Append h2 into title
     questoinTitle.appendChild(questionText);
     //Append title into quiz area
@@ -79,6 +78,13 @@ function addQuestionData(questionData) {
 
         // أضف معالج الحدث لكل زر
         button.onclick = () => {
+            // إعادة تعيين الخلفية لجميع الأزرار
+            let buttons = ansArea.querySelectorAll('.btn');
+            buttons.forEach(btn => btn.style.backgroundColor = '');
+
+            // تعيين خلفية جديدة للزر الذي تم النقر عليه
+            button.style.backgroundColor = '#d3d3d3'; // اختر اللون الذي تريده
+
             chosenAnswer = questionData[`answer_${i}`];
         };
     }
